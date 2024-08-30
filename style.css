@@ -1,5 +1,121 @@
 #container {
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
-    height: 97vh;
+    height: 88vh;
+}
+
+#buttonsDiv {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(127, 202, 202);
+    padding: 10px;
+}
+
+#colors {
+    display: flex;
+    justify-content: space-between;
+}
+
+.color {
+    width: 70px;
+    height: 60px;
+    margin-left: 20px;
+}
+
+#red {
+    background-color: red;
+    border-color: red;
+    color: white;
+}
+
+#orange {
+    background-color: orange;
+    border-color: orange;
+    color: white;
+}
+
+#yellow {
+    background-color: yellow;
+    border-color: yellow;
+    color: white;
+}
+
+#green {
+    background-color: green;
+    border-color: green;
+    color: white;
+}
+
+#blue {
+    background-color: blue;
+    border-color: blue;
+    color: white;
+}
+
+#purple {
+    background-color: purple;
+    border-color: purple;
+    color: white;
+}
+
+#pink {
+    background-color: pink;
+    border-color: pink;
+    color: white;
+}
+
+#white {
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+
+#black {
+    background-color: black;
+    color: white;
+}
+
+#reset-button {
+    border-radius: 45%;
+    border-color: aqua;
+    background-color: aquamarine;
+    width: 90px;
+    height: 60px;
+}
+
+.red-background {
+    background-color: red;
+}
+
+.orange-background {
+    background-color: orange;;
+}
+
+.yellow-background {
+    background-color: yellow;
+}
+
+.green-background {
+    background-color: green;
+}
+
+.blue-background {
+    background-color: blue;
+}
+
+.purple-background {
+    background-color: purple;
+}
+
+.pink-background {
+    background-color: pink;
+}
+
+.white-background {
+    background-color: white;
+}
+
+.black-background {
+    background-color: black;
 }

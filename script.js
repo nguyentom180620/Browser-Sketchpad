@@ -48,7 +48,7 @@ for (let i = 0; i < rowDivs.length; i++) {
         // Below idea for left mouse button check from: https://stackoverflow.com/questions/15098584/check-if-mouse-button-is-down-while-hovering
         squareDiv.addEventListener("mouseover", function(e) {
             if (e.buttons == 1) {
-                squareDiv.classList.remove("white-background");
+                squareDiv.classList.remove(squareDiv.classList[1]);
                 squareDiv.classList.add(currentColor);
             }
         });
@@ -85,7 +85,7 @@ resetButton.addEventListener("click", () => {
                 squareDiv.classList.add("white-background");
                 squareDiv.addEventListener("mouseover", function(e) {
                     if (e.buttons == 1) {
-                        squareDiv.classList.remove("white-background");
+                        squareDiv.classList.remove(squareDiv.classList[1]);
                         squareDiv.classList.add(currentColor);
                     }
                 });
